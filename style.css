@@ -20,7 +20,7 @@ a:focus {
 header {
   position: sticky;
   top: 0;
-  min-height: 50px;
+  min-height: 40px;
   display: flex;
   padding: 5px 10px;
   justify-content: space-between;
@@ -313,6 +313,10 @@ footer a {
 @media screen and (max-width: 650px) {
   #mobile-menu-icon {
     display: inline-block;
+  }
+
+  header {
+    min-height: 50px;
   }
 
   nav {
